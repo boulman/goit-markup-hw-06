@@ -680,12 +680,12 @@ nav{
   outline: 1px solid var(--color-navy-blue);
 }
 
-#policy-check:checked ~ .check-box{
+#policy-check:checked + .check-box{
   background-color: var(--color-ocean);
   border: none;
 }
 
-#policy-check:focus + .modal-policy-label{
+#policy-check:focus + .check-box{
   outline: 1px solid var(--color-ocean);
   outline-offset: 1px;
   border-radius: 1px;
